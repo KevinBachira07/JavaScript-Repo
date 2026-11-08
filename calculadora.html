@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator 2.0</title>
+    <link rel="icon" type="image/jpg" href="/img/Iconito.jpg">
+    <link rel="stylesheet" href="styles/estilocalculadora.css">
+    <script src="assets/scriptcalculadora.js"></script>
+</head>
+<body>
+    <main class="Calculadora">
+        <section class="Calculadora1">
+            <h1>Calculadora 1</h1>
+            <div>
+                <h4>Operaciones con valores numéricos</h4>
+                <p>Ingrese dos valores:</p>
+            </div>
+            <div class="campos">
+                valor 1:<input type="text" id="campo1">
+                valor 2:<input type="text" id="campo2">
+                resultado <input type="text" id="resultado1" disabled>
+            </div>
+            <div class="acciones">
+                <button onclick="sumar()">SUMAR</button>
+                <button onclick="restar()">RESTAR</button>
+                <button onclick="multiplicar()">MULTIPLICAR</button>
+                <button onclick="dividir()">DIVIDIR</button>
+                <button onclick="multiplo()">MULTIPLO</button>
+                <button onclick="raiz()">RAIZ</button>
+                <button onclick="comparar()">COMPARAR</button>
+            </div>
+        </section>
+        <section class="Calculadora2">
+            <h1>Calculadora 2</h1>
+            <div>
+                <h4>Operaciones con cadenas de texto</h4>
+                <p>Ingrese dos valores:</p>
+            </div>
+            <div class="campos">
+                valor 1:<input type="text" id="campo3">
+                valor 2:<input type="text" id="campo4">
+                resultado <input type="text" id="resultado2" disabled>
+            </div>
+            <div class="acciones">
+                <button onclick="compararCadenas()">COMPARAR TAMAÑO</button>
+                <button onclick="contarOcurrencias()">CONTAR OCURRENCIAS</button>
+                <button onclick="quitarEspacios()">QUITAR ESPACIOS</button>
+                <button onclick="insertarCadena()">INSERTAR CADENA</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
