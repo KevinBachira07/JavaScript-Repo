@@ -80,7 +80,7 @@ h1, h4, p {
     font-size: 1.5rem;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 114, 255, 0.3);
-    transition: box-shadow 0.3s;
+    transition: transform 0.2s ease-out, box-shadow 0.3s, background-color 0.3s;
 }
 .acciones button:hover {
     box-shadow: 0 8px 20px rgba(0, 114, 255, 0.5);
