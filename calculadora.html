@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator 2.0</title>
-    <link rel="icon" type="image/jpg" href="/img/Iconito.jpg">
+    <link rel="icon" type="image/jpg" href="/img/">
     <link rel="stylesheet" href="styles/estilocalculadora.css">
     <script src="assets/scriptcalculadora.js"></script>
 </head>
@@ -19,7 +19,7 @@
             <div class="campos">
                 valor 1:<input type="text" id="campo1">
                 valor 2:<input type="text" id="campo2">
-                resultado <input type="text" id="resultado1" disabled>
+                resultado <textarea id="resultado1" rows="2" readonly></textarea>
             </div>
             <div class="acciones">
                 <button onclick="sumar()">SUMAR</button>
@@ -40,7 +40,7 @@
             <div class="campos">
                 valor 1:<input type="text" id="campo3">
                 valor 2:<input type="text" id="campo4">
-                resultado <input type="text" id="resultado2" disabled>
+                resultado <textarea id="resultado2" rows="2" readonly></textarea>
             </div>
             <div class="acciones">
                 <button onclick="compararCadenas()">COMPARAR TAMAÑO</button>
